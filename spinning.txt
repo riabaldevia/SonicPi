@@ -1,1 +1,15 @@
+in_thread do
+  loop do
+    sample :loop_tabla
+    sleep 3
+  end
+end
+
+in_thread do
+  loop do
+    sample :ambi_choir
+    sleep 3
+  end
+end
+
 
